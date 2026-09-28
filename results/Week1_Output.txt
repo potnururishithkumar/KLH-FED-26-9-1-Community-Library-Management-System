@@ -1,8 +1,0 @@
-=== Community Library Management System ===
-Project: PSPJ Week 1
-Goal: manage books, members, loans and returns.
-Status: project charter accepted
-Next: record book intake and membership in Week 2.
-
-
-
