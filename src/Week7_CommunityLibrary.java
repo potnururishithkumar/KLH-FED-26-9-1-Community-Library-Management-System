@@ -1,0 +1,2 @@
+class Book { String title; boolean issued; Book(String title) { this.title = title; } void issue() { issued = true; } }
+public class Week7_CommunityLibrary { public static void main(String[] args) { Book book = new Book("Java Fundamentals"); book.issue(); System.out.println(book.title + " issued: " + book.issued); } }
