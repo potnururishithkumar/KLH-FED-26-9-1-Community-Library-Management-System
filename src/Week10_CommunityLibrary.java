@@ -1,0 +1,2 @@
+import java.nio.file.*;
+public class Week10_CommunityLibrary { public static void main(String[] args) throws Exception { Path file = Path.of("catalogue.txt"); Files.writeString(file, "Java Fundamentals\n"); System.out.println("Saved catalogue: " + Files.readString(file).trim()); Files.deleteIfExists(file); } }

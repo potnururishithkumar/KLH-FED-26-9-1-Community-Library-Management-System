@@ -1,0 +1,2 @@
+import java.util.*;
+public class Week11_CommunityLibrary { public static void main(String[] args) { List<String> loans = List.of("Java Fundamentals", "Data Structures", "Java Fundamentals"); System.out.println("Loans recorded: " + loans.size()); System.out.println("Java loans: " + loans.stream().filter(x -> x.equals("Java Fundamentals")).count()); } }
